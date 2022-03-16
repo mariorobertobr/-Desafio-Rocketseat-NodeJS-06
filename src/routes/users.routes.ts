@@ -21,6 +21,7 @@ usersRoutes.get("/:user_id", (request, response) =>
 
 usersRoutes.get("/", (request, response) =>
   listAllUsersController.handle(request, response)
+ 
 );
 
 export { usersRoutes };
